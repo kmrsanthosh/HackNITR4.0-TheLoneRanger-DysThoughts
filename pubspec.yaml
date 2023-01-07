@@ -1,0 +1,67 @@
+name: software_engg_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_native_splash: ^2.2.13
+  get: ^4.6.5
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+  flutter_otp_text_field: ^1.1.1
+  firebase_core: ^2.2.0
+  firebase_auth: ^4.1.2
+  rounded_loading_button: ^2.1.0
+  google_sign_in: ^5.4.2
+  shared_preferences: ^2.0.15
+  cloud_firestore: ^4.0.5
+  flutter_svg: ^1.1.6
+  flutter_pw_validator: ^1.4.2
+  just_audio: ^0.9.30
+  number_paginator: ^0.2.2
+  audioplayers: ^1.1.1
+  hive: ^2.2.3
+  provider: ^6.0.4
+  hive_flutter: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/logo/splashlogo.png
+
+  android_12:
+    icon_background_color: "#f7f6f1"
+    icon_background_color_dark: "#272727"
+    image: assets/logo/splashlogo.png
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/splash_images/
+    - assets/images/on_boarding_images/
+    - assets/images/welcome_images/
+    - assets/images/login_in/
+    - assets/images/forget_password/
+    - assets/logo/
+    - assets/images/dashboard/
+    - assets/tests/test_1/images/
+    - assets/tests/test_1/audio/
+
